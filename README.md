@@ -1,19 +1,40 @@
-# React + Vite
+# 🌍 AI Trip Planner ✈️🗺️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **AI Trip Planner**, a fullstack web app powered by **React**, **Gemini AI**, **TailwindCSS**, and **Firebase** to help users plan the perfect trip! Whether it’s a quick getaway or an international adventure, our AI will generate the best trip itinerary tailored to your preferences. 🚀
 
-Currently, two official plugins are available:
+## 🌟 Features
+- **Vite** for fast development environment setup ⚡
+- **Firebase** for database creation and management 🔥
+- **Google Authentication** for secure login 🔐
+- **Trip Suggestions** powered by Gemini AI 🤖
+- **React Routing** for seamless navigation between pages 🧭
+- **Shadcn/UI** for modern and responsive design 💻
+- **Google Autocomplete** to help users select destinations quickly 🏙️
+- **Display place photos** using Pixabay API 📸
+- **Full Responsiveness** across mobile, tablet, and desktop 📱💻
+- **Deployed on Vercel** for fast and easy access 🌐
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
+Check out the live app here: [AI Trip Planner](https://ai-trip-planner-web-omega.vercel.app/)
 
+## 📄 Environment Variables
 
-canvas workflow:
-https://app.eraser.io/workspace/rhpgqu3sLgj8dxPhekLn?origin=share
+Make sure to set up the following environment variables to run the app successfully:
 
-most of times images are not relevant: to get relevant I had to pay
+- `VITE_GOOGLE_GEMINI_AI_API_KEY`: For Gemini AI to generate travel itineraries.
+- `VITE_GOOGLE_AUTH_CLIENT_ID`: For Google Authentication.
+- `VITE_GOOGLE_PLACES_API_KEY`: For Google Places API to autocomplete and fetch location suggestions.
+- `VITE_PIXABAY_IMAGE_API_KEY`: For Pixabay API to fetch images.
 
-credits to https://codesandbox.io/p/sandbox/9w9n3i for model
+## 🛠 Technologies Used
+- **React** ⚛️
+- **Gemini AI** 🤖
+- **Firebase** 🔥
+- **Google APIs** (Places, Photos, Authentication) 🌍
+- **TailwindCSS** 🎨
+- **Vite** for development ⚡
+- **Pixabay** for image fetch 🫳
 
-<!-- can be improved -->
-used api which fetches image are sometimes not relevant
+## ©️ Copyright
+
+This project is developed and maintained by **Abhay Singh Raihal**. Feel free to fork or contribute!
